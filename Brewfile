@@ -1,31 +1,32 @@
 #### Ivan's Awesome Brewfile
 
 ## Command-line formulas
-tap "caskroom/cask"
-tap "homebrew/bundle"
-tap "homebrew/core"
-brew "cask"
+tap 'caskroom/cask'
+tap 'homebrew/bundle'
+tap 'homebrew/core'
+brew 'cask'
 # Zsh formulas
-brew "zsh"
-brew "zsh-completions"
+brew 'zsh'
+brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
 # Update coreutils - the ones in mac are outdated
 brew 'coreutils'
 brew 'moreutils'
 # More formulas
-brew "cmake"
-brew "gdal"
-brew "ghostscript"
-brew "htop"
-brew "imagemagick"
-brew "node"
-brew "postgresql"
-brew "screen"
-brew "tesseract"
-brew "tmux"
-brew "tree"
-brew "vim" --with-override-system-vi
-brew "wget"
+brew 'python3'
+brew 'cmake'
+brew 'gdal'
+brew 'ghostscript'
+brew 'htop'
+brew 'imagemagick'
+brew 'node'
+brew 'postgresql'
+brew 'screen'
+brew 'tesseract'
+brew 'tmux'
+brew 'tree'
+brew 'vim' --with-override-system-vi
+brew 'wget'
 
 # Install Cask
 # specify a directory to install

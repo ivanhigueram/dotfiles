@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+cat src/dotfiles_ascii.txt
+
 #Install Apple CLT (no heavy-ass XCode)
 echo Installing required applications - Command Line Tools
 sudo xcode-select --install
@@ -21,6 +23,13 @@ echo Install Python - Anaconda Python 3.6
 wget https://repo.continuum.io/archive/Anaconda3-5.0.1-MacOSX-x86_64.sh
 bash Anaconda3-5.0.1-MacOSX-x86_64.sh
 rm ~/Miniconda3-latest-MacOSX-x86_64.sh
+
+#Install Powerline Fonts
+git clone https://github.com/powerline/fonts.git --depth=1
+cd fonts
+./install.sh
+cd ..
+rm -rf fonts
 
 #Clean outdated version in the Cellar (Homebrew library)
 brew cleanup
