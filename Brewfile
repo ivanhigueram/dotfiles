@@ -1,7 +1,10 @@
 #### Ivan's Awesome Brewfile
+#### OS: Mac OSX
+#### Machine: MBP - 13in (2014)
+#### Date: 2017-11-01
 
 ## Command-line formulas
-tap 'caskroom/cask'
+tap 'caskroom/cask' #Deprecated - Homebrew includes Cask by default
 tap 'homebrew/bundle'
 tap 'homebrew/core'
 brew 'cask'
@@ -33,7 +36,7 @@ brew 'wget'
 cask_args appdir: '/Applications'
 tap 'caskroom/homebrew-cask' || true
 
-#Internet navigators
+#Internet 
 cask 'google-chrome'
 cask 'firefox'
 cask 'torbrowser'
@@ -45,6 +48,7 @@ cask 'dropbox'
 cask 'whatsapp'
 cask 'licecap'
 cask 'adobe-acrobat-reader'
+cask 'mactex'
 
 #Development
 cask 'iterm2'
@@ -54,6 +58,7 @@ cask 'unrarx'
 cask 'intel-power-gadget'
 cask 'dbeaver-community'
 cask 'smcfancontrol'
+cask 'atom'
 
 #Entreteinment
 cask 'spotify'

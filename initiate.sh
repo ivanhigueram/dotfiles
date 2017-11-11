@@ -16,7 +16,7 @@ brew bundle Brewfile
 
 #Install zsh bindings and autocomplete
 echo Install oh-my-zsh and set-up iTerm2
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"i
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 #Download/Install Anaconda
 echo Install Python - Anaconda Python 3.6
@@ -30,6 +30,9 @@ cd fonts
 ./install.sh
 cd ..
 rm -rf fonts
+
+#Set-up Vim Vundle
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 #Clean outdated version in the Cellar (Homebrew library)
 brew cleanup
