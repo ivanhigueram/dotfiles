@@ -12,9 +12,13 @@ brew 'cask'
 brew 'zsh'
 brew 'zsh-completions'
 brew 'zsh-syntax-highlighting'
+
 # Update coreutils - the ones in mac are outdated
 brew 'coreutils'
 brew 'moreutils'
+brew 'findutils'
+brew 'gnu-sed' --with-default-names
+
 # More formulas
 brew 'python3'
 brew 'cmake'
@@ -28,7 +32,7 @@ brew 'screen'
 brew 'tesseract'
 brew 'tmux'
 brew 'tree'
-brew 'vim' --with-override-system-vi
+brew 'vim' --with-override-system-vi --with-python3
 brew 'wget'
 
 # Install Cask
@@ -49,6 +53,7 @@ cask 'whatsapp'
 cask 'licecap'
 cask 'adobe-acrobat-reader'
 cask 'mactex'
+cask 'lastpass'
 
 #Development
 cask 'iterm2'

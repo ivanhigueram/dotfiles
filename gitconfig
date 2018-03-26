@@ -3,3 +3,9 @@
 [user]
 	name = ivanhigueram
 	email = ivanhigueram@gmail.com
+
+[diff]
+  tool = vimdiff3
+
+[merge]
+    tool = diff3
