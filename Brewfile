@@ -64,6 +64,7 @@ cask 'intel-power-gadget'
 cask 'dbeaver-community'
 cask 'smcfancontrol'
 cask 'atom'
+cask 'docker'
 
 #Entreteinment
 cask 'spotify'

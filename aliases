@@ -1,0 +1,10 @@
+
+#day-to-day aliases
+alias weather="curl -4 http://wttr.in/\?m"
+alias aws_dsapp="ssh ihiguera@dsapp.dssg.io"
+alias dotfiles="cd $DOTFILES"
+alias tmux='tmux -2'
+
+#functions
+jupyter_local() { ssh -NfL "$1":localhost:"$1" ihiguera@dsapp.dssg.io; }
+
