@@ -21,11 +21,6 @@ brew bundle Brewfile
 echo Install oh-my-zsh and set-up iTerm2
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-#Download/Install Anaconda
-echo 'Install Python - Anaconda Python 3.6'
-wget https://repo.continuum.io/archive/Anaconda3-5.0.1-MacOSX-x86_64.sh
-bash Anaconda3-5.0.1-MacOSX-x86_64.sh
-rm ~/Miniconda3-latest-MacOSX-x86_64.sh
 
 #Install Powerline Fonts
 git clone https://github.com/powerline/fonts.git --depth=1

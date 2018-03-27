@@ -8,4 +8,16 @@
   tool = vimdiff3
 
 [merge]
-    tool = diff3
+     conflictstyle = diff3
+
+[color]
+  ui = true
+
+[status]
+  submoduleSummary = true
+
+[url "https://github.com/"]
+  insteadOf = git@github.com:
+
+[url "https://"]
+  insteadOf = git://

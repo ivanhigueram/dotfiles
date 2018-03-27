@@ -21,6 +21,8 @@ brew 'gnu-sed' --with-default-names
 
 # More formulas
 brew 'python3'
+brew 'postgresql'
+brew 'postgis'
 brew 'cmake'
 brew 'gdal'
 brew 'ghostscript'
